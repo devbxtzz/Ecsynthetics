@@ -1,2 +1,2 @@
-# Ecsynths
-A derivative dex 
+# Ecsynthetic
+A synthetics derivative dex 
