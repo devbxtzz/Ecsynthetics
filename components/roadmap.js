@@ -1,68 +1,95 @@
 import React from "react";
+import Container from "./container";
+import Image from "next/image";
+import { FaCheckCircle } from "react-icons/fa";
 
 const Roadmap = () => {
   return (
-    <div className="bg-gray-100 py-8">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-center mb-8">
-          Ecsynthetic Roadmap
-        </h1>
-        <div className="max-w-3xl mx-auto text-center">
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Phase 1</h2>
-            <ul className="list-disc list-inside">
-              <li>Market research</li>
-              <li>Business model</li>
-              <li>Live website</li>
-              <li>Smart contract deployment</li>
-              <li>Audit</li>
-              <li>Establishing relationships with partners</li>
-              <li>Tokenomics release</li>
-      
-            </ul>
-          </div>
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Phase 2</h2>
-            <ul className="list-disc list-inside">
-              <li>Trading on mainnet</li>
-              <li>IDO/IFO on Glitch DEXs</li>
-              <li>Official whitepaper</li>
-              <li>Applied on CoinMarketCap, CoinGecko</li>
-              <li>Listing on DEXs</li>
-              <li>Community building</li>
-              <li>Reaching 10,000 Telegram, Twitter, and Discord users</li>
-              
-            </ul>
-          </div>
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Phase 3</h2>
-            <ul className="list-disc list-inside">
-              <li>Launch of staking pools</li>
-              <li>Addition of more synthetic assets</li>
-              <li>Development of governance protocol</li>
-              <li>Partnerships with liquidity providers</li>
-              <li>Expansion into new markets</li>
-              <li>Integration with other DeFi protocols</li>
-              <li>Marketing campaigns targeting institutional investors</li>
-              <li>Continued community building and engagement</li>
-            </ul>
-          </div>
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Phase 4</h2>
-            <ul className="list-disc list-inside">
-              <li>Launch of Ecsynthetic's own AMM</li>
-              <li>Integration with Layer 2 solutions for lower gas fees</li>
-              <li>Development of mobile app for trading and staking</li>
-              <li>Expansion of thecsecosystem through strategic partnerships and acquisitions</li>
-              <li>Research and development of new synthetic asset classes</li>
-              <li>Continued marketing campaigns targeting institutional investors and retail traders</li>
-              <li>Community building and engagement on a global scale</li>
-              <li>Development of educational resources for new users entering the DeFi space</li>
-            </ul>
+    <>
+      <Container className="flex flex-wrap ">
+        <div className="bg-white py-16 lg:py-24">
+          <div className="container mx-auto px-4 lg:px-16">
+            <div className="max-w-xl mx-auto mb-12 text-center">
+              <h2 className="text-3xl font-bold text-gray-800 mb-4">
+                Ecsynthetic Roadmap
+              </h2>
+              <p className="text-gray-600">
+                Here are the four phases of our project's development.
+              </p>
+            </div>
+            <div className="flex flex-wrap -mx-4">
+              <div className="w-full md:w-1/2 px-4 mb-8">
+                <div className="flex items-center mb-2">
+                  <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center">
+                    <FaCheckCircle className="text-white text-lg" />
+                  </div>
+                  <h3 className="text-lg font-bold ml-4">
+                    Phase 1: Launch and Market Research
+                  </h3>
+                </div>
+                <p className="text-gray-600">
+                  Conduct market research and develop a business model. Create a
+                  live website and deploy smart contracts, audited by reputable
+                  firms. Establish partnerships and release tokenomics.
+                </p>
+              </div>
+              <div className="w-full md:w-1/2 px-4 mb-8">
+                <div className="flex items-center mb-2">
+                  <div className="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center">
+                    <span className="text-lg text-white">2</span>
+                  </div>
+                  <h3 className="text-lg font-bold ml-4">
+                    Phase 2: Trading and Community Building
+                  </h3>
+                </div>
+                <p className="text-gray-600">
+                  Launch trading on mainnet, and conduct IDO/IFO on Glitch DEXs.
+                  Publish an official whitepaper and get listed on
+                  CoinMarketCap, CoinGecko, and other DEXs. Build a community of
+                  10,000 users across Telegram, Twitter, and Discord.
+                </p>
+              </div>
+              <div className="w-full md:w-1/2 px-4 mb-8">
+                <div className="flex items-center mb-2">
+                  <div className="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center">
+                    <span className="text-lg text-white">3</span>
+                  </div>
+                  <h3 className="text-lg font-bold ml-4">
+                    Phase 3: Expansion and Governance
+                  </h3>
+                </div>
+                <p className="text-gray-600">
+                  Launch staking pools, add more synthetic assets, and develop a
+                  governance protocol. Establish partnerships with liquidity
+                  providers, expand into new markets, and integrate with other
+                  DeFi protocols. Market campaigns targeting institutional
+                  investors and retail traders, and continue community building
+                  and engagement.
+                </p>
+              </div>
+              <div className="w-full md:w-1/2 px-4 mb-8">
+                <div className="flex items-center mb-2">
+                  <div className="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center">
+                    <span className="text-lg text-white">4</span>
+                  </div>
+                  <h3 className="text-lg font-bold ml-4">
+                    Phase 4: AMM Launch and Growth
+                  </h3>
+                </div>
+                <p className="text-gray-600">
+                  Launch Ecsynthetic's own AMM, expand the ecosystem through
+                  strategic partnerships and acquisitions. Research and develop
+                  new synthetic asset classes, and continue marketing campaigns
+                  targeting institutional investors and retail traders. Build
+                  community and engagement on a global scale and develop
+                  educational resources for new users entering the DeFi space.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      </Container>
+    </>
   );
 };
 
