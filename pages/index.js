@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ecsynthetic</title>
+        <title>Ecsynths</title>
         <meta
           name="description"
           content="Ecsynthetic is a free landing page template built with next.js & Tailwind CSS"

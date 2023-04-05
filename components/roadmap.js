@@ -7,15 +7,12 @@ const Roadmap = () => {
   return (
     <>
       <Container className="flex flex-wrap ">
-        <div className="bg-white py-16 lg:py-24">
+        <div className="py-16 lg:py-24">
           <div className="container mx-auto px-4 lg:px-16">
             <div className="max-w-xl mx-auto mb-12 text-center">
-              <h2 className="text-3xl font-bold text-gray-800 mb-4">
-                Ecsynthetic Roadmap
-              </h2>
-              <p className="text-gray-600">
-                Here are the four phases of our project's development.
-              </p>
+            <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
+              Roadmap
+            </h1>
             </div>
             <div className="flex flex-wrap -mx-4">
               <div className="w-full md:w-1/2 px-4 mb-8">
@@ -23,11 +20,11 @@ const Roadmap = () => {
                   <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center">
                     <FaCheckCircle className="text-white text-lg" />
                   </div>
-                  <h3 className="text-lg font-bold ml-4">
-                    Phase 1: Launch and Market Research
-                  </h3>
+                  <h2 className="text-xl font-bold ml-4">
+                    Phase 1: Market Research and Launch
+                  </h2>
                 </div>
-                <p className="text-gray-600">
+                <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
                   Conduct market research and develop a business model. Create a
                   live website and deploy smart contracts, audited by reputable
                   firms. Establish partnerships and release tokenomics.
@@ -38,11 +35,11 @@ const Roadmap = () => {
                   <div className="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center">
                     <span className="text-lg text-white">2</span>
                   </div>
-                  <h3 className="text-lg font-bold ml-4">
+                  <h2 className="text-xl font-bold ml-4">
                     Phase 2: Trading and Community Building
-                  </h3>
+                  </h2>
                 </div>
-                <p className="text-gray-600">
+                <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
                   Launch trading on mainnet, and conduct IDO/IFO on Glitch DEXs.
                   Publish an official whitepaper and get listed on
                   CoinMarketCap, CoinGecko, and other DEXs. Build a community of
@@ -54,11 +51,11 @@ const Roadmap = () => {
                   <div className="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center">
                     <span className="text-lg text-white">3</span>
                   </div>
-                  <h3 className="text-lg font-bold ml-4">
+                  <h2 className="text-xl font-bold ml-4">
                     Phase 3: Expansion and Governance
-                  </h3>
+                  </h2>
                 </div>
-                <p className="text-gray-600">
+                <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
                   Launch staking pools, add more synthetic assets, and develop a
                   governance protocol. Establish partnerships with liquidity
                   providers, expand into new markets, and integrate with other
@@ -72,12 +69,12 @@ const Roadmap = () => {
                   <div className="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center">
                     <span className="text-lg text-white">4</span>
                   </div>
-                  <h3 className="text-lg font-bold ml-4">
+                  <h2 className="text-xl font-bold ml-4">
                     Phase 4: AMM Launch and Growth
-                  </h3>
+                  </h2>
                 </div>
-                <p className="text-gray-600">
-                  Launch Ecsynthetic's own AMM, expand the ecosystem through
+                <p className="py-5 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+                  Launch Ecsynths's own AMM, expand the ecosystem through
                   strategic partnerships and acquisitions. Research and develop
                   new synthetic asset classes, and continue marketing campaigns
                   targeting institutional investors and retail traders. Build
