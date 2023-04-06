@@ -14,7 +14,7 @@ export default function Footer() {
             <div>
               {" "}
               <Link href="/">
-                <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+                <a className="flex items-center space-x-2 text-2xl font-medium text-blue-400">
                   <span>
                     <img src="/img/logo.png" alt="E" width="50" height="50" />
                   </span>
@@ -28,7 +28,7 @@ export default function Footer() {
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
                 <Link key={index} href="/">
-                  <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                  <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-blue-400 focus:text-blue-400 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
                     {item}
                   </a>
                 </Link>
@@ -40,7 +40,7 @@ export default function Footer() {
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {legal.map((item, index) => (
                 <Link key={index} href="/">
-                  <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                  <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-blue-400 focus:text-blue-400 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
                     {item}
                   </a>
                 </Link>
@@ -78,7 +78,8 @@ export default function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made
+          Copyright © {new Date().getFullYear()}. <span className="text-blue-400">
+                Ecsynths </span>
         </div>
       </Container>
       {/* Do not remove this */}
@@ -130,7 +131,8 @@ const Backlink = () => {
       rel="noopener"
       className="absolute flex px-3 py-1 space-x-2 text-sm font-semibold text-gray-900 bg-white border border-gray-300 rounded shadow-sm place-items-center left-5 bottom-5 dark:bg-trueGray-900 dark:border-trueGray-700 dark:text-trueGray-300"
     >
-      <span>Ecsynths</span>
+      <span className="text-blue-400">
+                Ecsynths </span>
     </a>
   );
 };

@@ -9,12 +9,13 @@ export default function Hero() {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              <span>Ecsynths</span>Ecsynths a synthetic derivatives DEX built on
-              top of the <span>Glitch</span>
-              DeFi protocol
+            <span className="text-blue-400">
+                Ecsynths </span> a synthetic derivatives DEX built on top of the{" "}
+              <span className="text-purple-700">Glitch </span> DeFi protocol
             </h1>
-            <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Ecsynths, is dedicated to providing a secure and efficient trading
+            <p className="py-5 text-xl leading-normal text-gray-500">
+            <span className="text-blue-400">
+                Ecsynths </span>, is dedicated to providing a secure and efficient trading
               platform for synthetic derivatives
             </p>
 
@@ -23,7 +24,7 @@ export default function Hero() {
                 href="https://web3templates.com/templates/Ecsynths-landing-page-template-for-startups"
                 target="_blank"
                 rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-sky-600 rounded-md "
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-blue-400 rounded-md "
               >
                 Trade Now
               </a>
