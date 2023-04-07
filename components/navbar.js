@@ -16,7 +16,7 @@ export default function Navbar() {
                 <Link href="/">
                   <a className="flex items-center space-x-2 text-2xl font-medium text-blue-400">
                     <span>
-                      <img src="/img/logo.png" alt="ECSY" width="60" height="60" />
+                      <img src="/img/logo2.png" alt="ECSY" width="60" height="60" />
                     </span>
                     <span>Ecsynths</span>
                   </a>
