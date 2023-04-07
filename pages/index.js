@@ -11,7 +11,7 @@ export default function Home() {
         <title>Ecsynths</title>
         <meta
           name="description"
-          content="Ecsynthetic is a free landing page template built with next.js & Tailwind CSS"
+          content="Ecsynthetic is a synthetic derivatives DEX built on Glitch defi protocol"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

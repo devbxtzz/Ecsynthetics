@@ -9,14 +9,14 @@ export default function Hero() {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-            <span className="text-blue-400">
-                Ecsynths </span> a synthetic derivatives DEX built on top of the{" "}
-              <span className="text-purple-700">Glitch </span> DeFi protocol
+              <span className="text-blue-400">Ecsynths </span> a synthetic
+              derivatives DEX built on
+              <span className="text-purple-700"> Glitch </span> DeFi protocol
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500">
-            <span className="text-blue-400">
-                Ecsynths </span>, is dedicated to providing a secure and efficient trading
-              platform for synthetic derivatives
+              <span className="text-blue-400">Ecsynths</span>, is dedicated to
+              providing a secure and efficient trading platform for synthetic
+              derivatives
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">

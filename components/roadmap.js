@@ -11,8 +11,7 @@ const Roadmap = () => {
           <div className="container mx-auto px-4 lg:px-16">
             <div className="max-w-xl mx-auto mb-12 text-center">
               <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              <span className="text-blue-400">
-                Roadmap </span>
+                <span className="text-blue-400">Roadmap </span>
               </h1>
             </div>
             <div className="flex flex-wrap -mx-4">
@@ -28,8 +27,8 @@ const Roadmap = () => {
                 <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
                   Conduct market research and develop a business model. Create a
                   live website for the testnet and deploy smart contracts,
-                  audited by reputable firms. Establish partnerships and release
-                  tokenomics.
+                  audited by reputable firms. Establish partnerships, securing
+                  funding, releasing official Docs and Tokenomics
                 </p>
               </div>
               <div className="w-full md:w-1/2 px-4 mb-8">
