@@ -15,10 +15,9 @@ export default function Footer() {
               {" "}
               <Link href="/">
                 <a className="flex items-center space-x-2 text-2xl font-medium text-blue-400">
-                  <span>
-                    <img src="/img/logo.png" alt="E" width="50" height="50" />
-                  </span>
-                  <span>Ecsynths</span>
+                <span>
+                      <img src="/img/logo2.png" alt="ECSY" width="260" height="60" />
+                    </span>
                 </a>
               </Link>
             </div>
@@ -78,8 +77,8 @@ export default function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. <span className="text-blue-400">
-                Ecsynths </span>
+          Copyright © {new Date().getFullYear()}.{" "}
+          <span className="text-blue-400">Ecsynths </span>
         </div>
       </Container>
       {/* Do not remove this */}
@@ -131,8 +130,9 @@ const Backlink = () => {
       rel="noopener"
       className="absolute flex px-3 py-1 space-x-2 text-sm font-semibold text-gray-900 bg-white border border-gray-300 rounded shadow-sm place-items-center left-5 bottom-5 dark:bg-trueGray-900 dark:border-trueGray-700 dark:text-trueGray-300"
     >
-      <span className="text-blue-400">
-                Ecsynths </span>
+      <span>
+        <img src="/img/logo2.png" alt="ECSY" width="100" height="60" />
+      </span>
     </a>
   );
 };
