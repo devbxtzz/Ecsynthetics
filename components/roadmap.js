@@ -25,9 +25,7 @@ const Roadmap = () => {
                   </h2>
                 </div>
                 <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-                  Conduct market research and develop a business model. Create a
-                  live website for the testnet, deploy and audit smart contracts. Establish partnerships, securing
-                  funding, releasing official Docs and Tokenomics
+                  Conduct market research and develop a business model. Create a live website for the testnet, deploy and Audit smart contracts, a. Establish partnerships, securing funding, releasing official Docs and Tokenomics.
                 </p>
               </div>
               <div className="w-full md:w-1/2 px-4 mb-8">
