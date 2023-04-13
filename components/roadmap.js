@@ -74,12 +74,7 @@ const Roadmap = () => {
                   </h2>
                 </div>
                 <p className="py-5 text-lg leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-                  Launch Ecsynths's own AMM, expand the ecosystem through
-                  strategic partnerships and acquisitions. Research and develop
-                  new synthetic asset classes, and continue marketing campaigns
-                  targeting institutional investors and retail traders. Build
-                  community and engagement on a global scale and develop
-                  educational resources for new users entering the DeFi space.
+                 Launch Ecsynths's own AMM. Expand the ecosystem through strategic partnerships and acquisitions. Research and develop new synthetic asset classes, and continue marketing campaigns targeting institutional investors and retail traders. Build community and engagement on a global scale and develop educational resources for new users entering the DeFi space.
                 </p>
               </div>
             </div>
