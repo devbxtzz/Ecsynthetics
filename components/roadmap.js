@@ -21,7 +21,7 @@ const Roadmap = () => {
                     <FaCheckCircle className="text-white text-lg" />
                   </div>
                   <h2 className="text-xl font-bold ml-4">
-                    Phase 1: Market Research and Launch
+                    Phase 1: Market Research and Testnet
                   </h2>
                 </div>
                 <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
@@ -36,7 +36,7 @@ const Roadmap = () => {
                     <span className="text-lg text-white">2</span>
                   </div>
                   <h2 className="text-xl font-bold ml-4">
-                    Phase 2: Trading and Community Building
+                    Phase 2: Mainnet Trading and Community Building
                   </h2>
                 </div>
                 <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
