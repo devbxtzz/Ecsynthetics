@@ -40,7 +40,7 @@ const Roadmap = () => {
                   </h2>
                 </div>
                 <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-                  Launch trading on mainnet, and conduct IDO/IFO on Glitch DEXs.
+                  Launch trading on mainnet, and conduct IDO/IFO on Glitch DEXes.
                   Publish an official whitepaper and get listed on
                   CoinMarketCap, CoinGecko, and other DEXs. Build a community of
                   10,000 users across Telegram, Twitter, and Discord.
